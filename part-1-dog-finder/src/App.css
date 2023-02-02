@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  color: white;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  width: 20vw;
+}
+
+.thumbnail {
+  width: 5vw;
+}

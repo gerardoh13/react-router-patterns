@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.Color {
+  height: 100vh;
+  width: 100vw;
+}
+
+.topDiv {
+  background-color: black;
+  color: white;
+  width: 100vw;
+  height: 20vh;
+}
+
+.addLink {
+  font-size: xx-large;
+  color: inherit;
+}
+
+.ctrlDiv {
+  background-color: rgb(194, 102, 102);
+  width: 20vw;
+  position: relative;
+  top: 45%;
+  padding: 10px;
+}
+
+.rainbowDiv {
+  border-radius: 5px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(255, 154, 0, 1) 10%,
+    rgba(208, 222, 33, 1) 20%,
+    rgba(79, 220, 74, 1) 30%,
+    rgba(63, 218, 216, 1) 40%,
+    rgba(47, 201, 226, 1) 50%,
+    rgba(28, 127, 238, 1) 60%,
+    rgba(95, 21, 242, 1) 70%,
+    rgba(186, 12, 248, 1) 80%,
+    rgba(251, 7, 217, 1) 90%,
+    rgba(255, 0, 0, 1) 100%
+);
+}
